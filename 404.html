@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Page not found</title>
+  <script>
+    // Ella Core's docs moved from / to /core/: send old links there.
+    if (!/^\/(core|ims)(\/|$)/.test(location.pathname)) {
+      location.replace("/core" + location.pathname + location.search + location.hash);
+    }
+  </script>
+</head>
+<body>
+  <p>Page not found. See the <a href="/core/">Ella Core</a> or <a href="/ims/">Ella IMS</a> documentation.</p>
+</body>
+</html>
