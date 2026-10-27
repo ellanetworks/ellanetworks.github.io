@@ -4,5 +4,6 @@ Serves `docs.ellanetworks.com`. Each product publishes its docs from its own rep
 
 - [Ella Core](https://github.com/ellanetworks/core): `/core/`
 - [Ella IMS](https://github.com/ellanetworks/ims): `/ims/`
+- [Ella SMSC](https://github.com/ellanetworks/smsc): `/smsc/`
 
 This repository only holds the root page, which opens the Ella Core docs, and a 404 page that sends links from before the move to `/core/`.
