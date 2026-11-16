@@ -5,12 +5,12 @@
   <title>Page not found</title>
   <script>
     // Ella Core's docs moved from / to /core/: send old links there.
-    if (!/^\/(core|ims|smsc)(\/|$)/.test(location.pathname)) {
+    if (!/^\/(core|ims|smsc|mocn)(\/|$)/.test(location.pathname)) {
       location.replace("/core" + location.pathname + location.search + location.hash);
     }
   </script>
 </head>
 <body>
-  <p>Page not found. See the <a href="/core/">Ella Core</a> , <a href="/ims/">Ella IMS</a> or <a href="/smsc/">Ella SMSC</a> documentation.</p>
+  <p>Page not found. See the <a href="/core/">Ella Core</a>, <a href="/ims/">Ella IMS</a>, <a href="/smsc/">Ella SMSC</a> or <a href="/mocn/">Ella MOCN</a> documentation.</p>
 </body>
 </html>
